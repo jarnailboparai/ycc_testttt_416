@@ -1,0 +1,77 @@
+body{
+	overflow-x:hidden;
+}
+.theme_bg{
+	background:url(../images/theme_background.jpg) center top;
+}
+.logo{
+	padding-top:28%;
+	transition:all ease .3s;
+	margin: 0 auto;
+}
+
+.ui-footer {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top: medium none !important;
+}
+.owl-demo .item{
+	width:70px;
+	height:70px;
+	display:table-cell;
+	background-image:url('../images/icon_bg.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle;
+	text-align:center;
+}
+.ui-header{
+	background:url(../images/header_bg.png) !important;
+	border:none !important;
+	
+}
+.ui-header .ui-title, .ui-footer .ui-title{
+	text-shadow:none !important;
+	color:#fff !important;
+	font-size:24px;
+	font-weight:normal;
+	margin:0 2%;
+}
+.ui-icon-customrefresh:after {
+	background-image: url("../images/refresh_icon.png");
+	
+}
+.ui-icon-customrefresh:after{
+	background-color:none;
+	border:none;
+	border-radius:none;
+	height:42px;
+	width:42px;
+}
+.ui-header .ui-btn-icon-notext{
+	margin-top:11px;
+}
+.refresh_link,.help_link{
+	border:none !important;
+	background:none !important;
+}
+.refresh_link:hover,.refresh_link:active,.refresh_link:focus,.help_link:focus,.help_link:hover,.help_link:active{
+	box-shadow:none !important;
+}
+
+
+.app_feature_list a{
+	color:#fff !important;
+	text-decoration:none;
+	cursor:pointer !important;
+}
+.app_feature_list a label{
+	cursor:pointer !important;
+}
+.app_feature_list a.item  img{
+	max-height:32px;
+	max-width:32px;
+}
+/* EDIT BY AMITOJ 18-Feb */
